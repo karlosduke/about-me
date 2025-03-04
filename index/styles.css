@@ -8,6 +8,86 @@
     --border-default-color: #d0d7de;
 }
 
+body {
+            background-color: #f3f2ef;
+        }
+        .profile-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+        }
+        .profile-background {
+            background-color: #1b85bd;
+            height: 200px;
+            border-radius: 8px 8px 0 0;
+            position: relative;
+        }
+        .profile-image {
+            width: 152px;
+            height: 152px;
+            border: 4px solid white;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -76px;
+            left: 24px;
+            background-color: #fff;
+        }
+        .profile-content {
+            background-color: white;
+            border-radius: 0 0 8px 8px;
+            padding: 90px 24px 24px 24px;
+        }
+        .profile-card {
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        .profile-card-header {
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .profile-card-body {
+            padding: 20px;
+        }
+        .skill-badge {
+            background-color: #f3f2ef;
+            border-radius: 4px;
+            padding: 5px 10px;
+            margin: 5px;
+            display: inline-block;
+            font-size: 0.9rem;
+        }
+        .contact-info {
+            color: #666;
+            margin-top: 1rem;
+        }
+        .last-updated {
+            font-size: 0.8rem;
+            color: #666;
+            text-align: right;
+            margin-top: 1rem;
+        }
+        .icon-circle {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background-color: #f3f2ef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        .experience-item:not(:last-child) {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
 body{
     font-size: 14px;
 }
